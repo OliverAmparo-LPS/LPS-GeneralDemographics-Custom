@@ -67,6 +67,7 @@ function LPSGDRestyle() {
   stdFieldRow("#mstreet, #mapt, #mcity, #mstate, #mzip, #mgeocode, #validateMailingAddress", "row-student student-mail");
   /*adds red text to mailing address*/
   $j('tr.headerrow.row-student.student-mail td').append(" <b>If Foster/Homeless/Variance, don’t touch the address and reach out to FRC.</b>").children('b').css('color', 'red')
+  $j('tr.headerrow.row-student.student-address td').append(" <b>If Foster/Homeless/Variance, don’t touch the address and reach out to FRC.</b>").children('b').css('color', 'red')
   /* -----------Phone/Email----------- */
   stdFieldRow("#fieldHomePhone", "row-student student-contactInfo");
 
